@@ -1,0 +1,36 @@
+Lecciones 1 
+Nunca casarte con una tecnologia/siempre aprender
+Leccion 2 
+Reconocer debilidades y fortalezas
+Leccion 3
+Siempre estar dispuesto a hacer las cosas de manera diferente falso junior mid sinior
+Leccion 4
+Trabajo en equipo es crucial
+Enfocarse en habilidades primero si estas lejos del tìtulo
+Enfocarse en entrar a lo grande si estas cerca del tìtulo
+______________________________________________________________________________________________________________
+Git - Shell
+Shell... Capa que es un interfaz que nos ayuda a los usuarios para comunicarnos con el sistema operativo
+Shell predilecto en computadoras se llama Bash
+Fish shell- Friendly shell ayuda a saber todos los comandos autosugiriendonos los comandos
+ZSH tiene plugins(all my zsh), gran soporte, 100% compatible con Bash 
+______________________________________________________________________________________________________________
+En terminal
+mkdir nombrecarpeta: crear carpeta
+ls: list, muestra archivos de la carpeta 
+cd: entrar a carpeta change directori
+git init: inicia repositorio en git, todo lo que tiene .antes de nombre está oculto
+touch prueba.txt: crea archivo pueba.txt
+------------En github
+icono verde new repository
+Para acceder repositorio en github
+IDusername+IDrepositorio
+lumadejesaga/prueba
+agregar descripcion y publico o privado
+Crear
+github muestra todo
+git remote add origin master copiar link de github para enviar repositorio 
+estados: workdirectory\area de prueba\git repository
+git estatus muestra cambios entre area de prueba y area de trabajo
+commit=confirmar de area de prueba a repositorio
+añadir=add de area de trabajo a area de prueba
