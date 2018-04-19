@@ -29,8 +29,28 @@ lumadejesaga/prueba
 agregar descripcion y publico o privado
 Crear
 github muestra todo
-git remote add origin master copiar link de github para enviar repositorio 
+---git remote add origin master copiar link de github para enviar repositorio 
 estados: workdirectory\area de prueba\git repository
-git estatus muestra cambios entre area de prueba y area de trabajo
-commit=confirmar de area de prueba a repositorio
+---git estatus muestra cambios entre area de prueba y area de trabajo
+commit=confirmar de area de prueba a repositorio pero no a la nube
 añadir=add de area de trabajo a area de prueba
+---git commit -m "Buenas practicas poner algo descriptivo de los cambios"
+---git push -u origin master para guardar en rama/branch master
+HTTP comunicacion cliente servidor
+SSH obliga a generar llaves encriptadas para comunicarnos en servidor
+se puede cambiar entre ambas en github al momento de copiar el link de git remote add
+git push -u indica que puede apuntar a cualquier canal, origin es la rama origen, si no se pone -u apuntarà por default al origin
+---git add --help ayuda de git
+Buenas practicas rama master contiene la versión funcional y se pondrá al servidor final a correr
+cada punto en github son los cambios realizados
+al crear rama copea todo lo del directorio original, se añade y se confirma para hacer push y subir a master esa rama
+---merge: combina rama de prueba con rama master ahora se puede hacer desde !!!!!github!!!!! de mejor manera
+PASOS
+modificar-añadir-confirmar-empujar
+---git diff nombredearchivo.txt: muestra lo que se agregó al archivo
+--- git reset HEAD prueba.txt para eliminar cambios y descartar archivos que estan en prueba y no se quieren subir
+---git checkout -- archivotxt: para descartar archivos en los que estan en prueba y no subirlos
+---cat prueba.txt: muestra el contenido del archivo en la terminal
+---git branch nombrerama: crea una rama sin movernos a la rama o ver ramas
+---git checkout -b nombrerama: crea rama y te mueve a esa rama, solo cambiar entre ramas sin -b
+al movernos y crear nueva rama clona todo lo de la rama en la que estabamos en la nueva
